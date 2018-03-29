@@ -1,0 +1,14 @@
+{
+    "Function with filtered repeat - until": {
+        "prefix": "mfuncrepeat",
+        "description": "Function with a filtered repeat - until loop over a record variable.\n",
+        "body": ["local procedure ${2:Repeat}${4:TableName}(${3:MyRecord}: Record ${4:TableName});",
+        "begin",
+        "\t$3.${5|SetRange,SetFilter|}(${6:Field}, ${7:Value});",
+        "\tif not $3.${8|FindSet(),Find('-'),Find('+')|} then",
+        "\t\trepeat",
+        "\t\t\t//Do something with $3",
+        "\t\t\t$0","\t\tuntil $3.Next${9|(),(-1)|} = 0;",
+        "end;"]
+    }
+}
