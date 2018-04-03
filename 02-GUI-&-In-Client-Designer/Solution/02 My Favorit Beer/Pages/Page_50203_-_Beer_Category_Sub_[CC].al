@@ -1,32 +1,31 @@
-page 50201 "Beer Category Card [CC]"
+page 50203 "Beer Category Sub [CC]"
 {
-    PageType        = Card;
+    PageType        = ListPart;
     SourceTable     = "Beer Category [CC]";
     SourceTableView = sorting(Code) order(ascending);
-    CaptionML       = ENU = 'Beer Category Card', 
-                      DEU = 'Bier Kategorie Karte';
-    ApplicationArea = All;
-    UsageCategory   = Documents;
-    
+    CaptionML       = ENU = 'Beer Category List', 
+                      DEU = 'Bier Kategorie Liste';
+    CardPageId      = "Beer Category Card [CC]";
+
     layout
     {
         area(content)
         {
-            group(General)
+            repeater(General)
             {
-                field("Code";"Code")
+                field("Code"; "Code")
                 {
                     ApplicationArea = All;
                 }
-                field("Name";"Name")
+                field("Name"; "Name")
                 {
                     ApplicationArea = All;
                 }
-                field("Description";"Description")
+                field("Description"; "Description")
                 {
                     ApplicationArea = All;
                 }
             }
         }
-    }    
+    }
 }

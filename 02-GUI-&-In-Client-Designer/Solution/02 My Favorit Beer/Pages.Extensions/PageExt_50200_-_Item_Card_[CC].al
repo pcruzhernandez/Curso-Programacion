@@ -40,30 +40,25 @@ pageextension 50200 "Item Card [CC]" extends "Item Card"
     {
         addlast(Processing)
         {        
-            group(MyActionGroup)
+            group(BeerActions)
             {
-                Action(MyAction1)
+                Action("Beer Category")
                 {
-                    Image = History;
-                    ApplicationArea = All;
-                    PromotedIsBig = true;
-                    PromotedCategory = New;
-                    Promoted = true;         
-                    CaptionML = ENU='Hello!';
+                    ApplicationArea     = All;
+                    PromotedIsBig       = true;
+                    PromotedCategory    = Process;
+                    Promoted            = true;         
+                    Image               = Card;
+                    Visible             = "Beer Item [CC]";                    
+                    CaptionML           = ENU = 'Beer Category',
+                                          DEU = 'Bier Kategorie';
                     
-                    RunObject = page "Beer Category Card [CC]";
-                    RunPageView = order(ascending) where("Code" = field("Beer Category Code [CC]"));
-
-                    trigger OnAction();
-                    var mB:Boolean;
-                        mB2:Boolean;
-                    begin
-                        Message('My message');
-                    end;                    
+                    RunObject           = page "Beer Category Card [CC]";
+                    RunPageView         = order(ascending) where("Code" = field("Beer Category Code [CC]"));
                 }
             }
         }
-    }   
+    }
 
     // var mBeerVisible: Boolean; 
 
@@ -74,7 +69,6 @@ pageextension 50200 "Item Card [CC]" extends "Item Card"
 
     // trigger OnAfterGetCurrRecord()
     // begin
-    //     //Message('OnAfterGetCurrRecord: %1', Rec."Beer Item [CC]");    
     //     mBeerVisible := Rec."Beer Item [CC]";        
     // end;
 }

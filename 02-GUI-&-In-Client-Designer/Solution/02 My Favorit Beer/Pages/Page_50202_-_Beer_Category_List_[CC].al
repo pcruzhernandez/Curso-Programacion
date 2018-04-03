@@ -1,9 +1,10 @@
-page 50200 "Beer Category List [CC]"
+page 50202 "Beer Category List [CC]"
 {
     PageType        = List;
     SourceTable     = "Beer Category [CC]";
-    SourceTableView = order(ascending);
-    CaptionML       = ENU = 'Beer Category List', DEU = 'Bier Kategorien Liste';
+    SourceTableView = sorting(Code) order(ascending);
+    CaptionML       = ENU = 'Beer Category List', 
+                      DEU = 'Bier Kategorie Liste';
     ApplicationArea = All;
     UsageCategory   = Lists;
     CardPageId      = "Beer Category Card [CC]";

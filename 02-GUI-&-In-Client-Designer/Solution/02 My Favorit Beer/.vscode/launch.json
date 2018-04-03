@@ -8,6 +8,7 @@
 //             "server": "http://localhost",
 //             "serverInstance": "nav",
 //             "authentication": "Windows",
+//             "startupObjectType": "Page",            
 //             "startupObjectId": 22,
 //             "schemaUpdateMode": "Synchronize",
 //             "debugServer": 4711,
@@ -24,8 +25,9 @@
             "server": "http://nav-2018",
             "serverInstance": "nav",
             "authentication": "Windows",
-            "startupObjectId": 30,
             "schemaUpdateMode": "Synchronize",
+            "startupObjectType": "Page",
+            "startupObjectId": 30,
             "skipServerCertificateCheck": true,
             "debugServer": 4711,
             "port": 7049
