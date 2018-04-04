@@ -27,7 +27,7 @@
             "authentication": "Windows",
             "schemaUpdateMode": "Synchronize",
             "startupObjectType": "Page",
-            "startupObjectId": 30,
+            "startupObjectId": 50200,
             "skipServerCertificateCheck": true,
             "debugServer": 4711,
             "port": 7049

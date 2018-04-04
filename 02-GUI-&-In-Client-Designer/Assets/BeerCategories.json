@@ -1,0 +1,52 @@
+{
+    "Beer Categories":
+    [
+        { 
+            "Name":        "Altbier",
+            "Description": "German-Style Altbier" 
+        },
+        { 
+            "Name":        "Amber ale",
+            "Description": "American-Style Amber/Red Ale" 
+        },
+        { 
+            "Name":        "Barley wine",
+            "Description": "British-Style Barley Wine Ale" 
+        },
+        { 
+            "Name":        "Berliner Weisse",
+            "Description": "Berliner-Style Weisse" 
+        },
+        { 
+            "Name":        "Blonde Ale",
+            "Description": "Golden or Blonde Ale" 
+        },
+        { 
+            "Name":        "Bitter",
+            "Description": "Ordinary Bitter" 
+        },
+        { 
+            "Name":        "Brown Ale",
+            "Description": "English-Style Brown Ale" 
+        },
+        { 
+            "Name":        "Doppelbock",
+            "Description": "German-Style Doppelbock" 
+        }
+        ,
+        { 
+            "Name":        "Dunkelweizen",
+            "Description": "South German-Style Dunkel Weizen" 
+        }
+        ,
+        { 
+            "Name":        "Eisbock",
+            "Description": "German-Style Eisbock" 
+        }
+        ,
+        { 
+            "Name":        "Hefeweizen",
+            "Description": "South German-Style Hefeweizen" 
+        }
+    ]
+}
