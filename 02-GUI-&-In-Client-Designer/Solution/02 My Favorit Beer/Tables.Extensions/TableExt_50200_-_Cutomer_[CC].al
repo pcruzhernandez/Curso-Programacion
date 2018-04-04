@@ -44,7 +44,8 @@ tableextension 50200 "Cutomer [CC]" extends Customer
         {
             CaptionML           = ENU = 'Favorite Beer Name', DEU = 'Lieblings-Bier Name';
             Description         = '[Dev] GUI & In-Client Designer';
-            TableRelation       = Item.Description where ("No." = field("Favorite Beer [CC]"));
+            FieldClass          = FlowField;
+            CalcFormula         = lookup (Item.Description where ("No." = field("Favorite Beer [CC]")));
             Editable            = false;
         }
     }

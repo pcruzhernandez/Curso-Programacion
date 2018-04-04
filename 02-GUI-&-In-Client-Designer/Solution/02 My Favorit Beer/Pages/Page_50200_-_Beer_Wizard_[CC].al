@@ -53,8 +53,8 @@ page 50200 "Beer Wizard [CC]"
             {
                 CaptionML           = ENU = 'Finish Setup',
                                       DEU = 'Einrichtung abschließen';
-                InstructionalTextML = ENU = 'Setup of Beer Categories\(you may import the file "...\Assets\BeerCategories.json")',
-                                      DEU = 'Einrichtung der Bier Kategorien\(Sie können die Datei "...\Assets\BeerCategories.json" importieren)';
+                InstructionalTextML = ENU = 'Import of selected Beer Categories',
+                                      DEU = 'Import der ausgewählten Bier Kategorien';
                 
                 Visible             = FinishVisible;
 

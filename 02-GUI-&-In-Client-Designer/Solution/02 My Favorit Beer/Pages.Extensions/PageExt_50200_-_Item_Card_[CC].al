@@ -6,6 +6,9 @@ pageextension 50200 "Item Card [CC]" extends "Item Card"
         {
             group("Beer")
             {
+                CaptionML = ENU = 'Beer Information',
+                            DEU = 'Bier Informationen';
+                
                 field("Beer Item [CC]";"Beer Item [CC]") 
                 {
                     ApplicationArea = All;
@@ -59,16 +62,4 @@ pageextension 50200 "Item Card [CC]" extends "Item Card"
             }
         }
     }
-
-    // var mBeerVisible: Boolean; 
-
-    // trigger OnOpenPage()
-    // begin
-    //     mBeerVisible := true;
-    // end;
-
-    // trigger OnAfterGetCurrRecord()
-    // begin
-    //     mBeerVisible := Rec."Beer Item [CC]";        
-    // end;
 }

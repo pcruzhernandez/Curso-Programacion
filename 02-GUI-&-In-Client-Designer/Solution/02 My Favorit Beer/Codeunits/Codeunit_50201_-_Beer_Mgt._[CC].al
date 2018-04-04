@@ -10,7 +10,8 @@ codeunit 50201 "Beer Mgt. [CC]"
     var notification: Notification;   
         beerMatch: Boolean;
         id:  GUID;
-        msg: TextConst ENU = 'The selected beer does not belong to the preferred category', DEU = 'Das Bier gehört nicht zur bevorzugten Kategorie';
+        msg: TextConst ENU = 'The selected beer does not belong to the preferred category',
+                       DEU = 'Das Bier gehört nicht zur bevorzugten Kategorie';
         myNotifications: Record "My Notifications";
     begin
         id        := FORMAT(cBeerSetupID);
