@@ -24,7 +24,7 @@ Developers know how-To:
 |||
 |-:|:-|
 |Level|200|
-|Duration|2-4 h|
+|Duration|4-8 h|
 |Target|Developer, BKT, Consultants|
 |Author|MMe|
 |Available Trainers|Michael Megel|
@@ -53,3 +53,5 @@ Developers know how-To:
 * Create a Wizard (Navigation Page)
 * Create Wizard Pages including a Sub-Page-Part
 * Build Wizard logic by using actions `Back`, `Next` and `Finsih` 
+* Invoke the Wizard by using a Notification Action callback
+* Import and Parse a Json file to get sample data for the exercise  
