@@ -44,7 +44,7 @@ codeunit 50201 "Beer Mgt. [CC]"
 
     // #### SETUP NOTIFICATION ####
 
-    procedure CheckSetup() : Boolean;
+    procedure CheckBeerSetup() : Boolean;
     var notification: Notification;   
         id:  GUID;
         msg: TextConst ENU = 'Beer Categories are not configured', DEU = 'Bier-Kategorien sind nicht initialisiert';

@@ -76,11 +76,11 @@ pageextension 50201 "Customer Card [CC]" extends "Customer Card"
 
     trigger OnOpenPage()
     begin
-        mBeerSetup := mBeerMgt.CheckSetup();
+        mBeerSetup := mBeerMgt.CheckBeerSetup();
     end;
 
     trigger OnAfterGetRecord()
     begin
-        mBeerSetup := mBeerMgt.CheckSetup();    
+        mBeerSetup := mBeerMgt.CheckBeerSetup();    
     end;
 }
