@@ -11,7 +11,7 @@ table 50200 "Beer Category [CC]"
         {
             CaptionML = ENU = 'Code',
                         DEU = 'Code';
-            NotBlank = true;
+            NotBlank  = true;
         }
 
         field(2; Name; Text[50])
