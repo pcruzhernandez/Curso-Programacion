@@ -35,9 +35,9 @@ They are now ready to start with NAV 2018 development
 
 ## Workshop & Material
 
-* Presentation
-* Handout
-* Workshop Material
+* [Presentation](../01-VisualStudioCode.pptx)
+* [Handout](01-VisualStudioCode.pdf)
+* [Workshop Material](Starter/)
 
 ```code
  01-VisualStudioCode

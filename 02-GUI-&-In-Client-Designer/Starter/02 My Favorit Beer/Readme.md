@@ -29,9 +29,11 @@ The ID-range for the objects is
 ## List of Changes
 
 * Creation of the extension
+* Workshop material imrpoved
 
 ## Revision History
 
 | Date          | Author        | Description                    |
 | ------------- |---------------|--------------------------------|
 | 2018-02-07    | MMe           | Creation of the extension      |
+| 2018-04-05    | MMe           | Workshop material imrpoved     |
