@@ -52,6 +52,6 @@ Developers know how-To:
 * Provide Information by using a Notification control to the user
 * Create a Wizard (Navigation Page)
 * Create Wizard Pages including a Sub-Page-Part
-* Build Wizard logic by using actions `Back`, `Next` and `Finsih` 
+* Build Wizard logic by using actions `Back`, `Next` and `Finish` 
 * Invoke the Wizard by using a Notification Action callback
 * Import and Parse a Json file to get sample data for the exercise  
