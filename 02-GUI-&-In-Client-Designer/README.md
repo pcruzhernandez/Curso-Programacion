@@ -45,7 +45,11 @@ Developers know how-To:
 
 ## Workshop Exercises
 
-* Add fields and actions to an existing Page (List & Card)
-* Build a new Page (List & Card) with Actions
-* Create Sub-Page-Parts incl. integration
+* Create new Pages (List & Card) with Actions
+* Create Page Extensions and add some Actions
+* Dynamic Show/Hide fields
+* Lookup and filter Pages by using `RunObject` and `RunPageView`
 * Provide Information by using a Notification control to the user
+* Create a Wizard (Navigation Page)
+* Create Wizard Pages including a Sub-Page-Part
+* Build Wizard logic by using actions `Back`, `Next` and `Finsih` 
