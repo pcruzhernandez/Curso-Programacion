@@ -14,7 +14,7 @@ codeunit 50201 "Beer Mgt. [CC]"
                        DEU = 'Das Bier gehört nicht zur bevorzugten Kategorie';
         myNotifications: Record "My Notifications";
     begin
-        id        := FORMAT(cBeerSetupID);
+        id        := FORMAT(cBeerMatchID);
         beerMatch := IsBeerMatch(customer);
                         
         if not myNotifications.IsEnabledForRecord(id, customer) then exit(beerMatch);
