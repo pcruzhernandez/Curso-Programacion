@@ -1,0 +1,23 @@
+{
+  "id": "749717cf-ed40-40cf-97c9-20e02c6f0aa5",
+  "name": "Hello World",
+  "publisher": "COSMO CONSULT Dresden GmbH",
+  "brief": "best 'Hello World' ever",
+  "description": "The best 'Hello World' you have ever seen!",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://www.cosmoconsult.com",
+  "logo": "./Assets/cc_logo_512x512.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
