@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "nav-2018",
+            "server": "http://nav-2018",
+            "serverInstance": "nav",
+            "authentication": "Windows",
+            "startupObjectId": 22
+        }
+    ]
+}
