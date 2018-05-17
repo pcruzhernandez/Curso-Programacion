@@ -8,6 +8,7 @@ pageextension 50201 "Customer Card [CC]" extends "Customer Card"
             {
                 CaptionML = ENU = 'Favorite Beer',
                             DEU = 'Lieblingsbier';
+                Visible   = mBeerSetup;
                 field("Beer Category Code [CC]";"Beer Category Code [CC]")
                 {
                     ApplicationArea = All;
@@ -44,6 +45,7 @@ pageextension 50201 "Customer Card [CC]" extends "Customer Card"
                     PromotedCategory    = Process;
                     Promoted            = true;         
                     Image               = Card;
+                    Visible             = mBeerSetup;
                     CaptionML           = ENU = 'Beer Category',
                                           DEU = 'Bier Kategorie';
                     
@@ -58,6 +60,7 @@ pageextension 50201 "Customer Card [CC]" extends "Customer Card"
                     PromotedCategory    = Process;
                     Promoted            = true;         
                     Image               = List;
+                    Visible             = mBeerSetup;
                     CaptionML           = ENU = 'Beers',
                                           DEU = 'Biere';
                     
@@ -67,6 +70,17 @@ pageextension 50201 "Customer Card [CC]" extends "Customer Card"
             }
         }
     }
-   
+    
+    var mBeerSetup: Boolean;
+        mBeerMgt:   Codeunit "Beer Mgt. [CC]";
 
+    trigger OnOpenPage()
+    begin
+        mBeerSetup := mBeerMgt.CheckBeerSetup();
+    end;
+
+    trigger OnAfterGetRecord()
+    begin
+        mBeerSetup := mBeerMgt.CheckBeerSetup();    
+    end;
 }
