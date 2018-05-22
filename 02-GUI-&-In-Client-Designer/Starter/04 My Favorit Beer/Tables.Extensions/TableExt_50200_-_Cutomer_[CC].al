@@ -10,8 +10,11 @@ tableextension 50200 "Cutomer [CC]" extends Customer
             DataClassification  = CustomerContent;
 
             trigger OnValidate();
+            var beerMgt:   Codeunit "Beer Mgt. [CC]";
             begin
                 CalcFields("Beer Category Name [CC]");
+
+                beerMgt.CheckBeer(Rec);                
             end;         
         }
 
