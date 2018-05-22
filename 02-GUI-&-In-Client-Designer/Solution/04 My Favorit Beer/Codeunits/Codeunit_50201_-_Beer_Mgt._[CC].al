@@ -101,4 +101,23 @@ codeunit 50201 "Beer Mgt. [CC]"
             notification.Recall();
     end;
 
+
+    // #### SETUP NOTIFICATION ####
+    
+    [EventSubscriber(ObjectType::Table, Database::"Aggregated Assisted Setup", 'OnRegisterAssistedSetup', '', true, true)]
+    local procedure OnRegisterAssistedSetup(var TempAggregatedAssistedSetup: Record "Aggregated Assisted Setup")
+    var cName: TextConst ENU = 'Beer Category Setup', DEU = 'Bier Kategorie Setup';
+        bc:    Record "Beer Category [CC]";
+    begin
+        TempAggregatedAssistedSetup.Init();
+        TempAggregatedAssistedSetup."Assisted Setup Page ID" := Page::"Beer Wizard [CC]";
+        TempAggregatedAssistedSetup.Name                     := cName;
+        TempAggregatedAssistedSetup."Item Type"              := TempAggregatedAssistedSetup."Item Type"::"Setup and Help";
+        if bc.IsEmpty() then
+            TempAggregatedAssistedSetup.Status               := TempAggregatedAssistedSetup.Status::"Not Completed"
+        else
+            TempAggregatedAssistedSetup.Status               := TempAggregatedAssistedSetup.Status::Completed;
+
+        TempAggregatedAssistedSetup.Insert();
+    end;
 }
