@@ -1,0 +1,24 @@
+{
+  "id": "71391bf1-d2f7-4c59-99f4-6ec0eb2756d8",
+  "name": "My Extension",
+  "publisher": "COSMO COSNULT",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [    
+  ],
+  "screenshots": [],
+  "platform": "11.0.12927.0",
+  "application": "11.0.20258.0",
+  "showMyCode": true,
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
