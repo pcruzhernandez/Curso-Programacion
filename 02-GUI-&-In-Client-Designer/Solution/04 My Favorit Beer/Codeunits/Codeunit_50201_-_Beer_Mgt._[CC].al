@@ -110,6 +110,7 @@ codeunit 50201 "Beer Mgt. [CC]"
         bc:    Record "Beer Category [CC]";
     begin
         TempAggregatedAssistedSetup.Init();
+        TempAggregatedAssistedSetup."Page ID"                := Page::"Beer Wizard [CC]";
         TempAggregatedAssistedSetup."Assisted Setup Page ID" := Page::"Beer Wizard [CC]";
         TempAggregatedAssistedSetup.Name                     := cName;
         TempAggregatedAssistedSetup."Item Type"              := TempAggregatedAssistedSetup."Item Type"::"Setup and Help";
