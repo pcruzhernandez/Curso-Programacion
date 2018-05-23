@@ -31,7 +31,7 @@ They are now ready to start with NAV 2018 development
 |Target|Developer, BKT, Consultants|
 |Author|MMe|
 |Available Trainers|Michael Megel|
-|Status|Review / Ongoing|
+|Status|Ready|
 
 ## Workshop & Material
 
