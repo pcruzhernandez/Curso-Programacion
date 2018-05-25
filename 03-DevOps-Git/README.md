@@ -2,53 +2,118 @@
 
 ## Description
 
-> ...First Contact with the new Development Environment
-> After this session, developers are familiar with the new development environment. They know / understand:
+This lesson is aimed to enable developers / project staff to start development of customer projects instantaneously. With this course, the participants know how-To:
 
-> * How-to configure, connect with NAV and download symbols
-> * Concept of extensions
-> * Meaning of  "AL control files" like, e.g., app.json and launch.json
-> * How-to speed up work by use of VS Code Snippets
+* Organize the development of Customer Projects
+* Setup or use the DEV environment and manage Gap development tasks
+* Use the Source Version Control System Git and manage Gap development tasks
+* Realize Gap Development Tasks and ensure productivity and quality during the implementation process
 
-They are now ready to start with NAV 2018 development
+They are now ready to start with NAV 2018 development tasks and can setup their local developemnt environment:
 
 ## Content
 
-> * Visual Studio Code as Editor
-> * Microsoft AL Extension & Settings
-> * Getting Started with AL (Project, Files, Symbols)
-> * Connect VS Code to Dynamics 2018
->   * launch.json
->   * app.json
-> * My 1th extension: "Hello World"
-> * Important Commands in AL
-> * Common Errors in error log
-
-|||
-|-:|:-|
-|Level|100|
-|Duration|2-4 h|
-|Target|Developer, BKT, Consultants|
-|Author|MMe|
-|Available Trainers|Michael Megel|
-|Status|Review / Ongoing|
+* Introduction to Git
+* Introduction to Docker
+* Introduction to PowerShell [Optional] 
+* Setup the local Development Infrastructure
+* Setup the Source Control Git for the Customer Project
+* Setup a DevOps Scenario (DEV, TEST, PROD)
+* Managing Gap Development with Git
+* Concurrent and Distributed Development in Customer Project
 
 ## Workshop & Material
 
-> * [Presentation](../01-VisualStudioCode.pptx)
-> * [Handout](01-VisualStudioCode.pdf)
-> * [Workshop Material](Starter/)
+The workshop is splitted into chapters:
+
+1. [Git](#chapter-01-git)
+1. [Docker](#chapter-02-docker)
+1. [Gap Development](#chapter-03-gap-development)
+
+The workshop material provides e.g.:
 
 ```code
- 01-VisualStudioCode
-    - Assets
-    - Starter
-    - Solution
+ 03-DevOps-Git
+    - Assets        (Additional Material, e.g. used by Hands On)
+    - Starter       (Defined Starting Point for the Hand-On)
+    - Solution      (Possible Result of the Hand-On)
 ```
 
-## Workshop Exercises
+## Chapters
 
-* Setup VS Code
-* Create and Start a "Hello World"
-* Debug the "Hello World"
-* Create own Snippets
+### Chapter 01 - Git
+
+|||
+|-:|:-|
+|Level|100 _(Beginner)_|
+|Duration|2-4 h|
+|Target|Developer|
+|Author|MMe|
+|Available Trainers|Michael Megel|
+|Status|Ready|
+
+* [Presentation](../03-DevOps-Git-01-Git.pptx)
+* [Handout](../03-DevOps-Git-01-Git.pdf)
+* [Workshop Material (Starter)](./Starter/01_Git-Basics/) "01_Git-Basics" with Command Line
+* [Workshop Material (Starter)](./Starter/02_Git-Basics/) "02_Git-Basics" with VS Code
+* [Workshop Material (Starter)](./Starter/03_Git-Basics/) "03_Git-Basics" with SmartGit
+* [Workshop Material (Solution)](./Solution/01_Git-Basics/) "01_Git-Basics" with Command Line
+* [Workshop Material (Solution)](./Solution/02_Git-Basics/) "02_Git-Basics" with VS Code
+* [Workshop Material (Solution)](./Solution/03_Git-Basics/) "03_Git-Basics" with SmartGit
+
+### Chapter 01 - Workshop Exercises
+
+* Understand Terms like Git, Repositories & Source Code Management, Branches
+* Knowledge of basic Git commands
+* Setup the Source Code Management for Microsoft AL projects
+* Initialize a Git Repository
+* Add and Commit files to the Source Code Management
+* Create and Checkout Branches
+* Merge a Branch into another Branch
+* Some basic repetitions in developemnt with Microsoft AL
+
+### Chapter 02 - Docker
+
+|||
+|-:|:-|
+|Level|100 _(Beginner)_|
+|Duration|2 h|
+|Target|Developer|
+|Author|MMe|
+|Available Trainers|Michael Megel|
+|Status|Development / Review|
+
+* [Presentation](../03-DevOps-Git-02-Docker.pptx)
+* [Handout](../03-DevOps-Git-02-Docker.pdf)
+
+### Chapter 02 - Workshop Exercises
+
+* Knowledge of Docker, Containers and what is inside of a Container
+* Setup the NAV development environment
+* Import a database into the Container
+* Import changes into the old world (C/Side)
+* Configure the container to allow development in the Old (C/Side) & New (Microsoft AL) world
+* Some basic repetitions in developemnt with Microsoft AL
+
+### Chapter 03 - Docker
+
+|||
+|-:|:-|
+|Level|200 _(Advanced)_|
+|Duration|2 h|
+|Target|Developer|
+|Author|MMe|
+|Available Trainers|Michael Megel|
+|Status|Development|
+
+* [Presentation](../03-DevOps-Infrastructure-&-Git-03-Gap-Development.pptx)
+* [Handout](../03-DevOps-Infrastructure-&-Git-03-Gap-Development.pdf)
+
+### Chapter 03 - Workshop Exercises
+
+* Knowledge of Docker, Containers and what is inside of a Container
+* Setup the NAV development environment
+* Import a database into the Container
+* Import changes into the old world (C/Side)
+* Configure the container to allow development in the Old (C/Side) & New (Microsoft AL) world
+* Some basic repetitions in developemnt with Microsoft AL
