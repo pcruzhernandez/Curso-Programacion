@@ -34,10 +34,10 @@ Developers know how-To:
 
 The workshop is splitted into 4 chapters.
 
-1) [In-Client Designer](#chapter-01-in-client-designer)
-1) [Pages & PageExtensions](#chapter-02-pages-pageextensions)
-1) [Notification & Wizard I](#chapter-03-notification-wizard-i)
-1) [Assisted Setup & Wizard II](#chapter-04-assisted-setup-wizard-ii)
+1. [In-Client Designer](#chapter-01-in-client-designer)
+1. [Pages & PageExtensions](#chapter-02-pages-pageextensions)
+1. [Notification & Wizard I](#chapter-03-notification-wizard-i)
+1. [Assisted Setup & Wizard II](#chapter-04-assisted-setup-wizard-ii)
 
 The workshop material provides:
 
