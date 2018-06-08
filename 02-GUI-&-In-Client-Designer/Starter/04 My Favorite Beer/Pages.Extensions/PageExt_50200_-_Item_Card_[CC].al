@@ -57,7 +57,8 @@ pageextension 50200 "Item Card [CC]" extends "Item Card"
                                           DEU = 'Bier Kategorie';
                     
                     RunObject           = page "Beer Category Card [CC]";
-                    RunPageView         = order(ascending) where("Code" = field("Beer Category Code [CC]"));
+                    RunPageView         = order(ascending);
+                    RunPageLink         = "Code" = field("Beer Category Code [CC]");
                 }
             }
         }
