@@ -48,7 +48,8 @@ pageextension 50201 "Customer Card [CC]" extends "Customer Card"
                                           DEU = 'Bier Kategorie';
                     
                     RunObject           = page "Beer Category Card [CC]";
-                    RunPageView         = order(ascending) where("Code" = field("Beer Category Code [CC]"));
+                    RunPageView         = order(ascending);
+                    RunPageLink         = "Code" = field("Beer Category Code [CC]");
                 }
             
                 Action("Beer Items")
