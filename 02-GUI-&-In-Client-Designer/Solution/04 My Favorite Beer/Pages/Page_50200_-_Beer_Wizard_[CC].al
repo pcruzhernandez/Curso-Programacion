@@ -26,7 +26,7 @@ page 50200 "Beer Wizard [CC]"
                     {
                         ShowCaption = false;
                         MultiLine = true;
-
+                        ApplicationArea = All;
                         AssistEdit = true;
 
                         trigger OnAssistEdit()
@@ -46,7 +46,9 @@ page 50200 "Beer Wizard [CC]"
                 Visible             = BeerCategoriesVisible;
                 
                 part(BeerCategories; "Beer Category Sub [CC]")
-                { }
+                {
+                    ApplicationArea = All;                
+                }
             }
 
             group(FinishScreen)
@@ -60,6 +62,7 @@ page 50200 "Beer Wizard [CC]"
 
                 field(ImportRecordCount;ImportRecordCount)
                 {
+                    ApplicationArea = All;
                     CaptionML = ENU = 'Selected Beer Categories',
                                 DEU = 'Ausgewählte Bier Kategorien';
                     Editable  = false;
@@ -68,6 +71,7 @@ page 50200 "Beer Wizard [CC]"
 
                 field(KindOfImport;KindOfImport)
                 {
+                    ApplicationArea = All;
                     CaptionML       = ENU = 'Kind of Import',
                                       DEU = 'Art des Imports';
                     OptionCaptionML = ENU = 'Replace All,Merge',
