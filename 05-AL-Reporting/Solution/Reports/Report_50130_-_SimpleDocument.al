@@ -25,10 +25,6 @@ report 50130 SimpleDocument
             {
                 
             }
-            column(Sell_to_Customer_Name_2;"Sell-to Customer Name 2")
-            {
-
-            }
             column(Sell_to_Address;"Sell-to Address")
             {
 
