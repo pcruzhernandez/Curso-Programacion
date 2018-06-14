@@ -1,0 +1,22 @@
+{
+  "id": "9135fb72-88b7-494d-8263-cca00cd15e7c",
+  "name": "Workshop AL Reporting",
+  "publisher": "Cosmo Consult",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://www.cosmoconsult.com",
+  "logo": "Asset/Logo.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "12.0.0.0",
+  "application": "12.0.0.0",
+  "idRange": {
+    "from": 50130,
+    "to": 50149
+  }
+}
