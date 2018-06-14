@@ -13,6 +13,10 @@ report 50130 SimpleDocument
         {
             PrintOnlyIfDetail=true;
             RequestFilterFields="No.";
+            column(Logo;recCompanyInformation.Picture)
+            {
+
+            }
             column(No_;"No.")
             {
                 
@@ -63,6 +67,9 @@ report 50130 SimpleDocument
             {
 
             }
+            column(PrintLogo;PrintLogo)
+            {
+            }
 
             dataitem(SalesLine;"Sales Line")
             {
@@ -87,28 +94,64 @@ report 50130 SimpleDocument
                 {
 
                 }
+
+                trigger OnAfterGetRecord()
+                begin
+                    sumAmount += "Line Amount"; 
+                end;
+            }
+            dataitem(totals;integer)
+            {
+                DataItemTableView=where(Number=CONST(1));
+                column(Number;Number)
+                {
+                }
                 column(sumAmount;sumAmount)
                 {
 
                 }
-
-                trigger OnAfterGetRecord()
-                begin
-                    sumAmount += sumAmount; 
-                end;
             }
             
-            trigger OnPreDataItem()
+            trigger OnAfterGetRecord()
             begin
                 sumAmount := 0;
             end;
         }
     }
+
+    requestpage
+    {
+        CaptionML=ENU='Simple Document options';
+        
+        layout
+        {
+            area(content)
+            {
+                group(Options)
+                {
+                    CaptionML=ENU='Options',DEA='Optionen';
+                    field(PrintLogo; PrintLogo)
+                    {
+                        ApplicationArea=ALL;
+                        CaptionML = ENU='Print Logo',DEA='Logo drucken';
+                    }
+                }
+            }
+        }
+        
+    }
+
+    trigger OnPreReport()
+    begin
+        recCompanyInformation.Get();
+        recCompanyInformation.CalcFields(Picture);
+    end;
     
 
     var
-
+        PrintLogo : Boolean;
         sumAmount : Decimal;
+        recCompanyInformation : Record "Company Information";
         TextOrderNo : TextConst ENU='Order No.',DEA='Auftragsnr.';
         TextNo : TextConst ENU='Item No.',DEA='Artikelnr.';
         TextDesc : TextConst ENU='Description',DEA='Beschreibung';
