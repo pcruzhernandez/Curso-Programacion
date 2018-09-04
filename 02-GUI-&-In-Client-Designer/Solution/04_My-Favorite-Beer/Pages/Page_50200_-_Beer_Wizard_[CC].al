@@ -210,7 +210,7 @@ page 50200 "Beer Wizard [CC]"
         // Read all data from file
         while stm.ReadText(line) > 0 do
         begin
-            data.Append(line);
+            data.AppendLine(line);
         end;
 
         // Assign the imported text to the Field

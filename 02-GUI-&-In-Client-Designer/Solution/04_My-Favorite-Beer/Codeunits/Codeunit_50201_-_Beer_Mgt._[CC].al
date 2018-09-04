@@ -6,6 +6,19 @@ codeunit 50201 "Beer Mgt. [CC]"
 
     // #### BEER MATCH NOTIFICATION ####
 
+    procedure InitCustomerBeerNotification()
+    var id:              Guid;
+        name: TextConst ENU = 'Customer Beer Check',
+                        DEU = 'Debitoren Bier Prüfung';
+        description: TextConst ENU = 'Customer Beer Match Notification',
+                               DEU = 'Debitoren Bier Match Notification';
+
+        myNotifications: Record "My Notifications";
+    begin
+        id := Format(cBeerMatchID);
+        myNotifications.InsertDefaultWithTableNum(id, name, description, Database::Customer);
+    end;
+
     procedure CheckBeer(customer: Record Customer): Boolean;
     var notification: Notification;   
         beerMatch: Boolean;
@@ -43,6 +56,20 @@ codeunit 50201 "Beer Mgt. [CC]"
     end;
 
     // #### SETUP NOTIFICATION ####
+
+    procedure InitBeerSetupNotification()
+    var id:              Guid;
+        name: TextConst ENU = 'Customer Beer Setup',
+                        DEU = 'Debitoren Bier Einrichtung';
+        description: TextConst ENU = 'Customer Beer Setup Notification',
+                               DEU = 'Debitoren Bier Setup Notification';
+
+        myNotifications: Record "My Notifications";
+    begin
+        id := Format(cBeerMatchID);
+        myNotifications.InsertDefault(id, name, description, true);
+    end;
+
 
     procedure CheckBeerSetup() : Boolean;
     var notification: Notification;   

@@ -2,8 +2,12 @@ codeunit 50200 "Install Codeunit [CC]"
 {
     Subtype = Install;
 
-    trigger OnRun();
+    trigger OnInstallAppPerDatabase();
+    var beerMgt: Codeunit "Beer Mgt. [CC]";
     begin
+        //beerMgt.InitBeerSetupNotification();
+        //beerMgt.InitCustomerBeerNotification();
+
         AddBeerCategory('PILS',  'Pilsner',    '');
         AddBeerCategory('LAGER', 'Lager Beer', '');
         AddBeerCategory('ALE',   'Ale',        '');
