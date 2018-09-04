@@ -52,8 +52,8 @@ The workshop material provides e.g.:
 |Available Trainers|Michael Megel|
 |Status|Ready|
 
-* [Presentation](../03-DevOps-Git-01-Git.pptx)
-* [Handout](../03-DevOps-Git-01-Git.pdf)
+* [Presentation](../03-DevOps-Infrastructure-&-Git-01-Git.pptx)
+* [Handout](../03-DevOps-Infrastructure-&-Git-01-Git.pdf)
 * [Workshop Material (Starter)](./Starter/01_Git-Basics/) "01_Git-Basics" with Command Line
 * [Workshop Material (Starter)](./Starter/02_Git-Basics/) "02_Git-Basics" with VS Code
 * [Workshop Material (Starter)](./Starter/03_Git-Basics/) "03_Git-Basics" with SmartGit
@@ -83,8 +83,8 @@ The workshop material provides e.g.:
 |Available Trainers|Michael Megel|
 |Status|Development / Review|
 
-* [Presentation](../03-DevOps-Git-02-Docker.pptx)
-* [Handout](../03-DevOps-Git-02-Docker.pdf)
+* [Presentation](../03-DevOps-Infrastructure-&-Git-02-Docker.pptx)
+* [Handout](../03-DevOps-Infrastructure-&-Git-02-Docker.pdf)
 
 ### Chapter 02 - Workshop Exercises
 
@@ -96,6 +96,12 @@ The workshop material provides e.g.:
 * Some basic repetitions in developemnt with Microsoft AL
 
 ### Chapter 03 - Docker
+
+> [**Development Process (GERMAN)**](https://sources.cosmoconsult.com/opensource/mmegel2065/development-process/blob/master/Entwicklungs-Prozess/Entwicklungs-Prozess.md)
+>
+> **IN PREPARATION**
+>
+> **WAITING FOR INPUT**
 
 |||
 |-:|:-|
@@ -110,6 +116,10 @@ The workshop material provides e.g.:
 * [Handout](../03-DevOps-Infrastructure-&-Git-03-Gap-Development.pdf)
 
 ### Chapter 03 - Workshop Exercises
+
+> **IN PREPARATION**
+>
+> **WAITING FOR INPUT**
 
 * Knowledge of Docker, Containers and what is inside of a Container
 * Setup the NAV development environment
