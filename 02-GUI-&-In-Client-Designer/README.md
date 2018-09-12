@@ -54,7 +54,7 @@ _Level 100 (Beginner) Duration: approx. 2h_
 
 * [Presentation](../02-GUI-&-In-Client-Designer-01-In-Client-Designer.pptx)
 * [Handout](../02-GUI-&-In-Client-Designer-01-In-Client-Designer.pdf)
-* [Workshop Material (Solution)](./Solution/01%20My%20Favorite%20Beer/) "01 My Favorite Beer"
+* [Workshop Material (Solution)](./Solution/01_My-Favorite-Beer/) "01 My Favorite Beer"
 
 ### Chapter 02 - Pages & PageExtensions
 
@@ -62,8 +62,8 @@ _Level 100 (Beginner) Duration: approx. 2h + Homework_
 
 * [Presentation](../02-GUI-&-In-Client-Designer-02-Pages-&-PageExtensions.pptx)
 * [Handout](../02-GUI-&-In-Client-Designer-02-Pages-&-PageExtensions.pdf)
-* [Workshop Material (Starter)](./Starter/02%20My%20Favorite%20Beer/) "02 My Favorite Beer"
-* [Workshop Material (Solution)](./Solution/02%20My%20Favorite%20Beer/) "02 My Favorite Beer"
+* [Workshop Material (Starter)](./Starter/02_My-Favorite-Beer/) "02 My Favorite Beer"
+* [Workshop Material (Solution)](./Solution/02_My-Favorite-Beer/) "02 My Favorite Beer"
 
 ### Chapter 03 - Notification & Wizard I
 
@@ -71,8 +71,8 @@ _Level 200 (Advanced) Duration: approx. 2h + Homework_
 
 * [Presentation](../02-GUI-&-In-Client-Designer-03-Notification-&-Wizard-1.pptx)
 * [Handout](../02-GUI-&-In-Client-Designer-03-Notification-&-Wizard-1.pdf)
-* [Workshop Material (Starter)](./Starter/03%20My%20Favorite%20Beer/) "03 My Favorite Beer"
-* [Workshop Material (Solution)](./Solution/03%20My%20Favorite%20Beer/) "03 My Favorite Beer"
+* [Workshop Material (Starter)](./Starter/03_My-Favorite-Beer/) "03 My Favorite Beer"
+* [Workshop Material (Solution)](./Solution/03_My-Favorite-Beer/) "03 My Favorite Beer"
 
 ### Chapter 04 - Assisted Setup & Wizard II
 
@@ -80,8 +80,8 @@ _Level 200+ (Advanced / Expert) Duration: approx. 4h + Homework_
 
 * [Presentation](../02-GUI-&-In-Client-Designer-04-Wizard-2.pptx)
 * [Handout](../02-GUI-&-In-Client-Designer-04-Wizard-2.pdf)
-* [Workshop Material (Starter)](./Starter/04%20My%20Favorite%20Beer/) "04 My Favorite Beer"
-* [Workshop Material (Solution)](./Solution/04%20My%20Favorite%20Beer/) "04 My Favorite Beer"
+* [Workshop Material (Starter)](./Starter/04_My-Favorite-Beer/) "04 My Favorite Beer"
+* [Workshop Material (Solution)](./Solution/04_My-Favorite-Beer/) "04 My Favorite Beer"
 
 ## Workshop Exercises
 
