@@ -54,7 +54,7 @@ _Level 100 (Beginner) Duration: approx. 2h_
 
 * [Presentation](../02-GUI-&-In-Client-Designer-01-In-Client-Designer.pptx)
 * [Handout](../02-GUI-&-In-Client-Designer-01-In-Client-Designer.pdf)
-* [Workshop Material (Solution)](./Solution/01_My-Favorite-Beer/) "01 My Favorite Beer"
+* [Workshop Material (Solution)](./Solution/02_My-Favorite-Beer/) "01 My Favorite Beer"
 
 ### Chapter 02 - Pages & PageExtensions
 
