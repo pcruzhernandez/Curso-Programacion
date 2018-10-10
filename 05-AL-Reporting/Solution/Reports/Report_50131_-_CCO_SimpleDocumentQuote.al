@@ -1,4 +1,4 @@
-report 50130 SimpleDocument
+report 50131 "CCO SimpleDocumentQuote"
 {
     CaptionML=ENU='Simple Document';
     Description='A simple document';
@@ -148,7 +148,7 @@ report 50130 SimpleDocument
         PrintLogo : Boolean;
         sumAmount : Decimal;
         recCompanyInformation : Record "Company Information";
-        TextOrderNo : TextConst ENU='Order No.',DEA='Auftragsnr.';
+        TextOrderNo : TextConst ENU='Quote No.',DEA='Angebotsnr.';
         TextNo : TextConst ENU='Item No.',DEA='Artikelnr.';
         TextDesc : TextConst ENU='Description',DEA='Beschreibung';
         TextQuantity : TextConst ENU='Quantity',DEA='Menge';
