@@ -1,22 +1,19 @@
-pageextension 50130 ExtendSalesOrderList extends "Sales Order List"
+pageextension 50130 CCO_ExtendSalesOrderList extends "Sales Order List"
 {
     
     actions
     {
         addfirst("&Print")
         {
-            action(PrintSimpleDocument)
+            action(CCO_PrintSimpleDocument)
             { 
                 ApplicationArea=All;
                 CaptionML=ENU='Simple Document';
                 Image=Print;
-                Promoted=true;
-                PromotedIsBig=true;
-                PromotedCategory=Process;
                 
                 trigger OnAction()
                 var
-                    rep : Report SimpleDocument;
+                    rep : Report "CCO SimpleDocument";
                     recFilter : Record "Sales Header";
                 begin
                     recFilter.SetRange("No.",rec."No.");

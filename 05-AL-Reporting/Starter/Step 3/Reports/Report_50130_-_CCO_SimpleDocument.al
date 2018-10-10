@@ -1,4 +1,4 @@
-report 50130 SimpleDocument
+report 50130 "CCO SimpleDocument"
 {
     CaptionML=ENU='Simple Document';
     Description='A simple document';
@@ -115,32 +115,13 @@ report 50130 SimpleDocument
         }
     }
 
-    requestpage
-    {
-        CaptionML=ENU='Simple Document options';
-        
-        layout
-        {
-            area(content)
-            {
-                group(Options)
-                {
-                    CaptionML=ENU='Options',DEA='Optionen';
-                    field(PrintLogo; PrintLogo)
-                    {
-                        ApplicationArea=ALL;
-                        CaptionML = ENU='Print Logo',DEA='Logo drucken';
-                    }
-                }
-            }
-        }
-        
-    }
+
 
     trigger OnPreReport()
     begin
         recCompanyInformation.Get();
         recCompanyInformation.CalcFields(Picture);
+        PrintLogo := true;
     end;
     
 
