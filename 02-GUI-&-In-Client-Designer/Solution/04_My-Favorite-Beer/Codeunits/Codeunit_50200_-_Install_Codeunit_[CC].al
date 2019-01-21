@@ -2,7 +2,7 @@ codeunit 50200 "Install Codeunit [CC]"
 {
     Subtype = Install;
 
-    trigger OnInstallAppPerDatabase();
+    trigger OnInstallAppPerCompany()
     var beerMgt: Codeunit "Beer Mgt. [CC]";
     begin
         //beerMgt.InitBeerSetupNotification();
