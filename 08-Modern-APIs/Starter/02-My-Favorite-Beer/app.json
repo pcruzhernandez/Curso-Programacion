@@ -1,0 +1,22 @@
+{
+  "id": "f664a3ec-8e58-406a-b2bd-dfd3072af314",
+  "name": "My Favorit Beer",
+  "publisher": "COSMO CONSULT Dresden GmbH",
+  "brief": "My Favorit Beer",
+  "description": "This example shows how use WebServices and Modern APIs with Microsoft AL",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://www.cosmoconsult.com",
+  "logo": "./Assets/cc_logo_512x512.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}

@@ -1,0 +1,25 @@
+@apiHost = <Your-Host-Name>
+@apiUser = <User-Name>
+@apiToken = <Web-Access-Token>
+@queryName = beerQuery
+@copmanyName = CRONUS%20USA%2C%20Inc.
+
+### Get all available WebServices as OData v4
+GET  {{apiHost}}:7048/NAV/ODataV4/
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Get all Companies OData v4
+GET  {{apiHost}}:7048/NAV/ODataV4/Company
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Get all Companies OData v4
+GET  {{apiHost}}:7048/NAV/ODataV4/Company('{{copmanyName}}')
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Call the Query
+GET  {{apiHost}}:7048/NAV/ODataV4/Company('{{copmanyName}}')/{{queryName}}
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Filter the Query
+GET  {{apiHost}}:7048/NAV/ODataV4/Company('{{copmanyName}}')/{{queryName}}?$filter=Name eq 'Atlantic Ale'
+Authorization: Basic {{apiUser}} {{apiToken}}

@@ -1,0 +1,42 @@
+@apiHost = <Your-Host-Name>
+@apiUser = <User-Name>
+@apiToken = <Web-Access-Token>
+@apiPublisher = Workshop 
+@apiGroup = FavoritBeer
+@entity = beer
+@entities = beers
+@apiVersion = v1.0
+@copmanyID = 11964762-da4a-4882-ba17-af8f89e90f5e
+@entityId = 28a3379c-232e-415c-963e-059bb07d1083
+
+### Get all Companies
+GET  {{apiHost}}:7048/nav/api/microsoft/automation/beta/companies
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Get all entities from API
+GET {{apiHost}}:7048/nav/api/microsoft/automation/beta/companies({{copmanyID}})
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Get all entities from API
+GET {{apiHost}}:7048/nav/api/{{apiPublisher}}/{{apiGroup}}/{{apiVersion}}/companies({{copmanyID}})/{{entities}}
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Get 1 entity from API
+GET {{apiHost}}:7048/nav/api/{{apiPublisher}}/{{apiGroup}}/{{apiVersion}}/companies({{copmanyID}})/{{entities}}({{entityId}})
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Get all entities from API
+GET {{apiHost}}:7048/nav/api/{{apiPublisher}}/{{apiGroup}}/{{apiVersion}}/companies({{copmanyID}})/{{entities}}?$filter=name eq 'Atlantic Ale'
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+### Add a new record to API / Change the Values
+# Note: Use ETag and be carefule with IDs
+POST {{apiHost}}:7048/nav/api/{{apiPublisher}}/{{apiGroup}}/{{apiVersion}}/companies({{copmanyID}})/{{entities}}
+Content-Type: application/json
+Authorization: Basic {{apiUser}} {{apiToken}}
+
+{
+    "no": "FREIBERGER",
+    "beerCategoryCode": 'PILS',
+    "name": "Freiberger Pils"
+}
