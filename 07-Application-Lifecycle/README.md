@@ -1,4 +1,4 @@
-# Application Lifecycle Managem,ent
+# Application Lifecycle Management
 
 ## Description
 
