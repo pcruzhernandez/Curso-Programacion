@@ -1,0 +1,7 @@
+@apiHost = <Your-Host-Name>
+@apiUser = <User-Name>
+@apiToken = <Web-Access-Token>
+@apiPublisher = <API-Publisher> 
+@apiGroup = <API-Group>
+@apiVersion = <API-Version>
+@copmanyID = <Company-Id>
