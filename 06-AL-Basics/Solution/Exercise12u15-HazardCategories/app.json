@@ -1,0 +1,24 @@
+{
+  "id": "469dda3a-47fe-4c09-847e-a61774483001",
+  "name": "Hazard Categories",
+  "publisher": "MPro",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "assets/Gefahrgut.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "runtime": "2.0",
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "target": "Extension",
+  "idRange": {
+    "from": 60300,
+    "to": 60350
+  }
+}

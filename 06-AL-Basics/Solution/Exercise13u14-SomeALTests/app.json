@@ -1,0 +1,23 @@
+{
+  "id": "e1956ed4-fdfe-4b15-a724-89d2e0427049",
+  "name": "SomeALTests",
+  "publisher": "MPro",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "assets/SoftwareTest.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 60100,
+    "to": 80000
+  },
+  "runtime": "2.0"
+}
