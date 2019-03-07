@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://10.12.13.31:7449", // "http://localhost:9649", // Schulungsumgebung "http://10.12.13.31:7449",  // docker "http://custom-bc",  does not work: DENUE--NV-DEMO3
+            "serverInstance": "DEMO3-BC-AL01",
+            "authentication": "Windows",
+            "startupObjectId": 90000,  // 130401 Test Tool
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "breakOnRecordWrite": false
+        }
+    ]
+}

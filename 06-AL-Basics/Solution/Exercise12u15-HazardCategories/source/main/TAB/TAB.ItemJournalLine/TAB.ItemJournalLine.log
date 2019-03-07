@@ -1,0 +1,4 @@
+GAP-AL-005.01 DENUE.MPRO: Hazard Categories - Functionality
+    Added
+        - Field "CCO Hazard Categories"
+        - Transfer of "Hazard Category Code" from Purchase Line to Item Journal Line during course of Purch Posting

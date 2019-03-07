@@ -1,0 +1,30 @@
+{
+  "id": "e1956ed4-fdfe-4b15-a724-14d2e0427049",
+  "name": "Customer Platinum Classification",
+  "publisher": "MPro",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "assets/ExtensionExtension.png",
+  "capabilities": [],
+  "dependencies": [
+    {
+      "appId": "e1956ed4-fdfe-4b15-a724-13d2e0427049",
+      "name": "Customer Classification",
+      "publisher": "MPro",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 80300,
+    "to": 80400
+  },
+  "runtime": "2.0"
+}
